@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello janata</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setInterval
+
+    // 1st method
+    // const sayDate=function(){
+    //     console.log("Aditya",Date.now());
+    // }
+
+    // setInterval(sayDate,1000)
+
+    // 2nd method
+    // setInterval(function(){
+    //     console.log("Aditya",Date.now());
+    // },1000)
+
+    // 3rd method
+    const sayDate=function(str){
+        console.log(str,Date.now());
+    }
+
+    setInterval(sayDate,1000,"Hello");
+
+    const intervalId=setInterval(sayDate,1000,"hi")
+
+    clearInterval(intervalId)
+</script>
+
+</html>

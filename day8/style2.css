@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    text-align:center;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 600;
+}
+
+h3{
+    text-align: center;
+    margin-top: 230px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+button{
+    margin: 20px;
+    font-size: 1.5rem;
+    margin-left: 700px;
+    background-color: rgb(170, 207, 163);
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}

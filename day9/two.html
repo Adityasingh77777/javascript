@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello janata</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+//    setTimeout(function (){
+//     console.log("Aditya");
+//    },1000)
+   // setTimeout is a function which is used to print name after the 
+   // given interval of time 
+
+   // we can use as a variable
+   const sayAditya=function(){
+    console.log("Aditya");
+   }
+   setTimeout(sayAditya,2000)
+
+//    document.querySelector('h1').innerHTML="best Js Series"
+   
+   const changeText=function(){
+    document.querySelector('h1').innerHTML="best JS Series"
+   }
+   const changeMe=setTimeout(changeText,2000)
+
+   clearTimeout(changeMe)
+
+</script>
+</html>
